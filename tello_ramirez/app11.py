@@ -1,5 +1,4 @@
 import libreria
-
 def platano():
     print("SE INGRESO LA OPCION PLATANOS")
     contenido="SE INGRESO LA OPCION PLATANOS"  + "\n"
