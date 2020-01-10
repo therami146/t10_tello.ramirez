@@ -1,19 +1,23 @@
 import libreria
+
 def platano():
     print("SE INGRESO LA OPCION PLATANOS")
     contenido="SE INGRESO LA OPCION PLATANOS"  + "\n"
     libreria.guardar_datos("inf.txt",contenido,"a")
     print("SE GUARDA LOS DATOS")
+
 def fresa():
     print("SE INGRESO LA OPCION FRESA")
     contenido="SE INGRESO LA OPCION FRESA" + "\n"
     libreria.guardar_datos("inf.txt", contenido, "a")
     print("SE GUARDA LOS DATOS")
+
 def manzana():
     print("SE INGRESO LA OPCION MANZANA")
     contenido="SE INGRESO LA OPCION MANZANA" + "\n"
     libreria.guardar_datos("inf.txt", contenido, "a")
     print("SE GUARDA LOS DATOS")
+
 def pepino():
     print("SE INGRESO LA OPCION PEPINO")
     contenido="SE INGRESO OPCION PEPINO"  + "\n"
@@ -25,6 +29,7 @@ def cebolla():
     contenido="SE INGRESO OPCION CEBOLLA" + "\n"
     libreria.guardar_datos("inf.txt", contenido, "a")
     print("SE GUARDA LOS DATOS")
+
 def zanahoria():
     print("SE INGRESO LA OPCION ZANAHORIA")
     contenido="SE INGRESO OPCION ZANAHORIA" + "\n"
@@ -90,4 +95,4 @@ while(opc!=max):
     if(opc==2):
         verduras()
 
-print("FIN DEL PROGRAMA CTM")
+print("FIN DEL PROGRAMA")
