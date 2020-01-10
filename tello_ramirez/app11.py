@@ -2,33 +2,33 @@ import libreria
 
 def platano():
     print("SE INGRESO LA OPCION PLATANOS")
-    contenido="SE INGRESO LA OPCION PLATANOS"
+    contenido="SE INGRESO LA OPCION PLATANOS"  + "\n"
     libreria.guardar_datos("inf.txt",contenido,"a")
     print("SE GUARDA LOS DATOS")
 def fresa():
     print("SE INGRESO LA OPCION FRESA")
-    contenido="SE INGRESO LA OPCION FRESA"
+    contenido="SE INGRESO LA OPCION FRESA" + "\n"
     libreria.guardar_datos("inf.txt", contenido, "a")
     print("SE GUARDA LOS DATOS")
 def manzana():
     print("SE INGRESO LA OPCION MANZANA")
-    contenido="SE INGRESO LA OPCION MANZANA"
+    contenido="SE INGRESO LA OPCION MANZANA" + "\n"
     libreria.guardar_datos("inf.txt", contenido, "a")
     print("SE GUARDA LOS DATOS")
 def pepino():
     print("SE INGRESO LA OPCION PEPINO")
-    contenido="SE INGRESO OPCION PEPINO"
+    contenido="SE INGRESO OPCION PEPINO"  + "\n"
     libreria.guardar_datos("inf.txt", contenido, "a")
     print("SE GUARDA LOS DATOS")
 
 def cebolla():
     print("SE INGRESO LA OPCION CEBOLLA")
-    contenido="SE INGRESO OPCION CEBOLLA"
+    contenido="SE INGRESO OPCION CEBOLLA" + "\n"
     libreria.guardar_datos("inf.txt", contenido, "a")
     print("SE GUARDA LOS DATOS")
 def zanahoria():
     print("SE INGRESO LA OPCION ZANAHORIA")
-    contenido="SE INGRESO OPCION ZANAHORIA"
+    contenido="SE INGRESO OPCION ZANAHORIA" + "\n"
     libreria.guardar_datos("inf.txt", contenido, "a")
     print("SE GUARDA LOS DATOS")
 
